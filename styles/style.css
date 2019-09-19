@@ -2680,7 +2680,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 }
 .puy-wax .pay-wax{
     max-width: 327px;
-    margin-bottom: 95px;
+    margin-bottom: 75px;
 }
 .puy-wax .title-modal h2{
     font-size: 24px;
@@ -5182,17 +5182,25 @@ body.dialogShowing {
     margin-top: 15px;
 }
 .lotery-wax{
-    font-size: 52px;
+    font-size: 30px;
     margin-left: 0;
-    padding-left: 65px;
+    padding-left: 40px;
 }
 .lotery-wax::before {
     background: url("../image/wax.png")no-repeat;
-    width: 55px;
-    height: 52px;
+    width: 35px;
+    height: 35px;
     bottom: 0;
     background-size: contain;
 }
+.change-lotery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
 .wrapper-pay-bee-input{
     display: flex;
     margin: 0 auto;
@@ -5238,7 +5246,8 @@ body.dialogShowing {
 @keyframes shadow-btn {to {box-shadow: 0 0 0 30px rgba(175,255,124,0.3);}}
 
 .center-change .lotery-wax {
-    font-size: 50px;
+    font-size: 40px;
+    margin-right: 0;
 }
 
 .cripto-transfer:hover{
@@ -5250,6 +5259,7 @@ body.dialogShowing {
     color: rgba(77,142,44,1);
     font-weight: bolder;
     margin: 0 auto;
+    margin-bottom: 15px;
 }
 .stories{
     margin: 0 auto;

@@ -920,7 +920,7 @@
         padding: 0;
     }
     .center-change .lotery-wax{
-        font-size: 50px;
+        font-size: 40px;
     }
 
 }
@@ -2870,8 +2870,8 @@
         background-size: contain;
     }
     .lotery-wax::before {
-        width: 45px;
-        height: 45px;
+        width: 30px;
+        height: 30px;
         background-size: contain;
     }
     .center-change, .center-change span {
@@ -3034,6 +3034,30 @@
     }
     .error-img img {
         max-width: 135px;
+    }
+    .change-lotery {
+        margin-bottom: 3px;
+    }
+    .center-change .lotery-wax {
+        font-size: 27px;
+        padding-left: 34px;
+    }
+    .center-change .lotery-wax::before {
+        width: 26px;
+        height: 26px;
+        background-size: contain;
+        bottom: 0;
+        top: 0;
+    }
+    .stories{
+        font-size: 17px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .center-change .jeckpot {
+        font-size: 30px;
+        margin-top: 8px;
+        margin-bottom: 7px;
     }
 
 }
@@ -4403,6 +4427,13 @@
     }
     .wrapper-modal.new-game-modal{
         height: 100%;
+    }
+    .center-change .jeckpot{
+        margin-bottom: 15px;
+        margin-top: 24px;
+    }
+    .center-change .lotery-wax {
+        font-size: 40px;
     }
 }
 
