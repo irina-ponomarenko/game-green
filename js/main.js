@@ -107,15 +107,19 @@ $('.btn-drop-down').click(function () {
     $(".btn-menu").click(function() {
 
         $(".mobile-menu").toggleClass("active-mobile-menu");
+        $(".cripto-transfer").fadeToggle();
     });
     $(".close-btn-mobile").click(function() {
         $(".mobile-menu").removeClass("active-mobile-menu");
+        $(".cripto-transfer").fadeIn();
     });
       $(".close-mobile").click(function() {
         $(".mobile-menu").removeClass("active-mobile-menu");
+          $(".cripto-transfer").fadeIn();
     });
     $(".close-modal-mobile").click(function() {
         $(".mobile-menu").removeClass("active-mobile-menu");
+        $(".cripto-transfer").fadeIn();
     });
 
 

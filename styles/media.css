@@ -4446,6 +4446,9 @@
         background-position: left 51px top;
         height: 28px;
     }
+    .cripto-transfer {
+        top: 30%;
+    }
     .trumpet-wax{
         height: 105px;
         position: absolute;
