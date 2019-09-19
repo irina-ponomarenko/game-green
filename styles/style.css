@@ -5228,7 +5228,18 @@ body.dialogShowing {
     top: 20%;
     background: linear-gradient(to bottom, rgba(156,237,90,1) 0%, rgba(132,230,52,1) 100%);
     z-index: 100000;
+    animation: shadow-btn 2s infinite ease-in-out;
 }
+@-webkit-keyframes shadow-btn {to {box-shadow: 0 0 0 30px rgba(175,255,124,0.3);}}
+@-moz-keyframes shadow-btn {to {box-shadow: 0 0 0 30px rgba(175,255,124,0.3);}}
+@-ms-keyframes shadow-btn {to {box-shadow: 0 0 0 30px rgba(175,255,124,0.3);}}
+@keyframes shadow-btn {to {box-shadow: 0 0 0 30px rgba(175,255,124,0.3);}}
+/*@keyframes shadow-btn {*/
+/*    from {box-shadow: 0px 0px 30px rgba(77,142,44,1);}*/
+/*    50% {box-shadow: 0px 0px 0px rgba(77,142,44,1);}*/
+/*    to {box-shadow: 0px 0px 30px rgba(77,142,44,1);}*/
+/*}*/
+
 .cripto-transfer:hover{
     background: linear-gradient(to bottom, rgba(132,230,52,1) 0%, rgba(156,237,90,1) 100%);
     box-shadow: 1px -6px 0px -1px rgba(168,240,110,1) inset, 1px 6px 0px -1px rgba(121,217,43,1) inset;
