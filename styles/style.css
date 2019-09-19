@@ -5264,4 +5264,5 @@ body.dialogShowing {
 }
 .stories:hover{
     text-decoration: none;
+    color: rgba(77,142,44,1);
 }
