@@ -5276,3 +5276,131 @@ body.dialogShowing {
     text-decoration: none;
     color: rgba(77,142,44,1);
 }
+.wrapper-social-list{
+    position: fixed;
+    bottom: 120px;
+    right: 10px;
+    z-index: 1000;
+}
+.social-icon{
+    width: 37px;
+    height: 37px;
+    border-radius: 100%;
+    display: block;
+    cursor: pointer;
+}
+.telegram-icon{
+    background: url("../image/Telegram.png")no-repeat;
+    background-size: contain;
+}
+.telegram-chat-icon{
+    background: url("../image/chanel.jpg")no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.diskord-icon{
+    background: url("../image/discord.svg")no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.twitter-icon{
+    background: url("../image/twitter.svg")no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.fb-icon{
+    background: url("../image/facebook.svg")no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.vk-icon{
+    background: url("../image/vk.svg")no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.gld-icon{
+    background: url("../image/gld.jpg")no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.md-icon{
+    background: url("../image/md.png")no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.bt-icon{
+    background: url("../image/bt.png")no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.social-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.social-item{
+    background: linear-gradient(to bottom, rgba(222,222,222,1) 0%, rgba(241,241,241,1) 100%);
+    border-radius: 35px;
+    padding: 4px;
+}
+.social-item:last-child{
+    margin-bottom: 0;
+}
+.social-sub-list{
+    display: none;
+    align-items: center;
+    margin-right: 10px;
+}
+.social-link{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: -2px 1px 5px rgba(0,0,0,1);
+    font-size: 12px;
+}
+.ru-icon{
+    background: url("../image/RU.png")no-repeat;
+    background-size: contain;
+}
+.en-icon{
+    background: url("../image/en.png")no-repeat;
+    background-size: contain;
+}
+.china-icon{
+    background: url("../image/kitay.png")no-repeat;
+    background-size: contain;
+}
+.es-icon{
+    background: url("../image/spain.png")no-repeat;
+    background-size: contain;
+}
+.in-icon{
+    background: url("../image/indonezia.png")no-repeat;
+    background-size: contain;
+}
+.bra-icon{
+    background: url("../image/braz.png")no-repeat;
+    background-size: contain;
+}
+.fil-icon{
+    background: url("../image/philippine.png")no-repeat;
+    background-size: contain;
+}
+.vn-icon{
+    background: url("../image/vetnam.png")no-repeat;
+    background-size: contain;
+}
+.social-sub-item{
+    margin-right: 8px;
+}
+.social-sub-item:last-child{
+    margin-right: 0;
+}
+.social-item{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}

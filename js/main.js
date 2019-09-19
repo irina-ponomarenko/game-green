@@ -23,7 +23,14 @@ $('.btn-drop-down').click(function () {
         });
     })(jQuery);
 
-
+    /*------------------list social active-----------------*/
+    $(".social-item").on('click', function () {
+        console.log('djhfsdjhf');
+        $(this).find(".social-sub-list").slideToggle(1, function() {
+            if ($(this).is(':visible'))
+                $(this).css('display','flex');
+        });
+    });
 
     /*--------------------------modal window-------------------*/
     $("#modal-text").flythat({
@@ -266,4 +273,5 @@ $('.btn-drop-down').click(function () {
             top = $(id).offset().top; //определим высоту от начала страницы до якоря
         $('body,html').animate({scrollTop: top}, 1500); //сделаем прокрутку за 1 с
     });
+
 });
