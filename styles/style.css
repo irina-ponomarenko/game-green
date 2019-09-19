@@ -5234,11 +5234,10 @@ body.dialogShowing {
 @-moz-keyframes shadow-btn {to {box-shadow: 0 0 0 30px rgba(175,255,124,0.3);}}
 @-ms-keyframes shadow-btn {to {box-shadow: 0 0 0 30px rgba(175,255,124,0.3);}}
 @keyframes shadow-btn {to {box-shadow: 0 0 0 30px rgba(175,255,124,0.3);}}
-/*@keyframes shadow-btn {*/
-/*    from {box-shadow: 0px 0px 30px rgba(77,142,44,1);}*/
-/*    50% {box-shadow: 0px 0px 0px rgba(77,142,44,1);}*/
-/*    to {box-shadow: 0px 0px 30px rgba(77,142,44,1);}*/
-/*}*/
+
+.center-change .lotery-wax {
+    font-size: 50px;
+}
 
 .cripto-transfer:hover{
     background: linear-gradient(to bottom, rgba(132,230,52,1) 0%, rgba(156,237,90,1) 100%);
