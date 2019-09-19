@@ -5251,3 +5251,17 @@ body.dialogShowing {
     font-weight: bolder;
     margin: 0 auto;
 }
+.stories{
+    margin: 0 auto;
+    text-align: center;
+    color: rgba(77,142,44,1);
+    text-decoration: underline;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.stories:hover{
+    text-decoration: none;
+}
