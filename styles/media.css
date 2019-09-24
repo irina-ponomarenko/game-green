@@ -15,6 +15,11 @@
     .container-modal {
         min-height: 385px;
     }
+    .my-bee-home,
+    .my-bee-home span {
+        text-align: center;
+        font-size: 20px;
+    }
     .container-table {
         margin: 0 auto;
         margin-top: 66px;
@@ -59,6 +64,18 @@
     }
     .medal-input img{
         width: 100%;
+    }
+    .count-bee {
+        font-size: 26px !important;
+    }
+    .count-bee-btn{
+        width: 35px;
+        height: 35px;
+    }
+    .pay-count-bee {
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
     }
     .uley-input h3 {
         margin-left: 10px;
@@ -124,7 +141,8 @@
         margin-top: 27px;
         margin-bottom: 8px;
     }
-    .green-bee-btn {
+    .green-bee-btn,
+    .violet-btn{
         width: 190px !important;
         height: 50px;
         font-size: 18px;
@@ -293,6 +311,9 @@
     .next-medal {
         font-size: 18px;
         margin-top: 9px;
+    }
+    .info-buy-honey, .info-buy-honey span{
+        font-size: 18px;
     }
     .reward-btn {
         width: 195px;
@@ -1142,6 +1163,9 @@
         margin-top: 25px;
         margin-bottom: 10px;
     }
+    .my-bee-home span.count-bee {
+        font-size: 22px;
+    }
     .green-bee-btn {
         width: 238px;
         height: 40px;
@@ -1152,7 +1176,8 @@
     .new-game-modal .green-bee-btn{
         bottom: 22px;
     }
-    .green-bee-btn:after{
+    .green-bee-btn:after,
+    .violet-btn:after{
         border-radius: 10px;
     }
     .about-bee{
@@ -1265,8 +1290,8 @@
         margin-bottom: 30px;
     }
     .buy-input {
-        background-color: #f8f3d9;
-        border: 2px solid #e38d11;
+        background-color: #fff;
+        border: 2px solid #60be19;
         border-radius: 10px;
         max-width: 300px;
         width: 100%;
@@ -1275,6 +1300,10 @@
         font-weight: bold;
         font-size: 18px;
         color: #7b3701;
+    }
+    .pay-count-bee{
+        border: 2px solid #60be19;
+        background-color: #fff;
     }
     .puy-wax .wrapper-bottom-footer-modal {
         bottom: 70px;
@@ -2196,7 +2225,7 @@
         display: flex;
     }
      .mobile-wrapper-menu-landing {
-        border-top: 2px solid #c45f00;
+        border-top: 2px solid #367d11;
         margin-top: 20px;
         padding-top: 20px;
      }
@@ -2581,10 +2610,14 @@
         margin: 25px 0;
     }
     .pay-count-bee {
-        max-width: 35px;
-        height: 30px;
+        width: 38px;
+        height: 38px;
+        padding: 0;
     }
-
+    .count-bee-btn {
+        width: 38px;
+        height: 39px;
+    }
 
 }
 @media screen and (max-width: 1024px)and (min-width: 768px) and (orientation:portrait){
@@ -2657,6 +2690,10 @@
 @media only screen and (max-width: 737px) and (min-width: 415px) and (orientation: landscape) {
     .flythat img {
         max-width: 90px;
+    }
+    .info-buy-honey, .info-buy-honey span{
+        font-size: 14px;
+        margin-bottom: 10px;
     }
     .wax-reward:before {
         width: 40px;
@@ -2900,7 +2937,8 @@
         padding-left: 33px;
         position: relative;
     }
-    .green-bee-btn{
+    .green-bee-btn,
+    .violet-btn{
         height: 35px;
         font-size: 14px;
     }
@@ -2942,13 +2980,6 @@
     }
     .my-bee-home{
         margin-bottom: 0;
-    }
-    .count-bee::before{
-        left: 4px;
-        bottom: 0;
-        top: -5px;
-        width: 36px;
-        height: 32px;
     }
     .count-bee {
         font-size: 24px !important;
@@ -3194,7 +3225,8 @@
     .about-bee {
         font-size: 12px;
     }
-    .green-bee-btn{
+    .green-bee-btn,
+    .violet-btn{
         width: 190px;
     }
     .summa-dohod img {
@@ -3210,22 +3242,11 @@
     .count-bee {
         font-size: 20px !important;
     }
-    .count-bee::before {
-        left: 5px;
-        bottom: 0;
-        top: -6px;
-        width: 34px;
-        height: 30px;
-    }
     .my-bee-home, .my-bee-home span {
         font-size: 14px;
     }
     .my-bee-home {
         margin-top: 8px;
-    }
-    .count-bee{
-        width: 43px;
-        height: 35px;
     }
     .cryptobee .green-bee-btn{
         width: 197px;
@@ -3341,7 +3362,8 @@
     .buy-honey-bank {
         max-width: 235px;
     }
-    .green-bee-btn {
+    .green-bee-btn ,
+    .violet-btn{
         width: 180px;
         height: 30px;
         font-size: 12px;
@@ -4274,13 +4296,13 @@
     .more-nead p {
         font-size: 20px;
         font-weight: bold;
-        color: #f24f1e;
+        color: #16b60a;
         margin-right: 16px;
     }
     .more-nead span {
         font-size: 30px;
         font-weight: bold;
-        color: #f24f1e;
+        color: #16b60a;
         padding-left: 45px;
     }
     .more-many::before{
