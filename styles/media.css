@@ -157,9 +157,6 @@
     .center-change, .center-change span{
         font-size: 32px;
     }
-    .center-change{
-        margin-bottom: 30px;
-    }
     .limit p {
         font-size: 18px;
     }
@@ -358,6 +355,9 @@
     .button-btn{
         width: 100px;
         height: 40px;
+    }
+    .reit{
+        width: 85px;
     }
     .button-btn.error-close{
         bottom: 105px;
@@ -941,9 +941,21 @@
         padding: 0;
     }
     .center-change .lotery-wax{
-        font-size: 40px;
+        font-size: 44px;
     }
-
+    .center-change .jeckpot{
+        font-size: 50px;
+    }
+    .lotery-wax::before {
+        width: 40px;
+        height: 40px;
+    }
+    .lotery-wax{
+        padding-right: 44px;
+    }
+    .center-change {
+        margin-bottom: 8px;
+    }
 }
 
 @media only screen and (max-width: 1366px) and (orientation:portrait){
@@ -981,6 +993,10 @@
      }
     .item-representative:nth-child(3n){
         margin-right: 0;
+    }
+    .lotery-game{
+        width: 200px;
+        height: 40px;
     }
     .container-avatar-representative{
         width: 145px;
@@ -1027,7 +1043,7 @@
         width: 100%;
         height: 100vh;
         background: none;
-        background-color: #ffffe2;
+        background-color: #e6fef1;
         z-index: 999999999999999;
     }
     .header-modal{
@@ -1287,7 +1303,7 @@
         font-size: 50px;
     }
     .center-change{
-        margin-bottom: 30px;
+        margin-bottom: 15px;
     }
     .buy-input {
         background-color: #fff;
@@ -2691,6 +2707,13 @@
     .flythat img {
         max-width: 90px;
     }
+    .wrapper-ok{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .wrapper-ok img{
+        max-width: 92px;
+    }
     .info-buy-honey, .info-buy-honey span{
         font-size: 14px;
         margin-bottom: 10px;
@@ -3071,7 +3094,8 @@
     }
     .center-change .lotery-wax {
         font-size: 27px;
-        padding-left: 34px;
+        padding-left: 0;
+        padding-right: 30px;
     }
     .center-change .lotery-wax::before {
         width: 26px;
@@ -3081,14 +3105,17 @@
         top: 0;
     }
     .stories{
-        font-size: 17px;
+        font-size: 14px;
         margin-top: 10px;
         margin-bottom: 10px;
     }
     .center-change .jeckpot {
-        font-size: 30px;
-        margin-top: 8px;
-        margin-bottom: 7px;
+        font-size: 25px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .lotery-game{
+        height: 33px;
     }
 
 }
@@ -3135,6 +3162,13 @@
     .flythat img {
         max-width: 70px;
     }
+    .wrapper-ok{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .wrapper-ok img{
+        max-width: 92px;
+    }
     .give-medale {
         margin-top: 8px;
         margin-bottom: 8px;
@@ -3168,6 +3202,9 @@
     }
     .center-change {
         margin-bottom: 8px;
+    }
+    .change-lotery{
+        padding: 5px 0;
     }
     .many-change::before{
         top: -4px;
@@ -3618,6 +3655,12 @@
     .game-need {
         font-size: 14px;
         max-width: 300px;
+    }
+    .center-change .jeckpot{
+        font-size: 40px;
+    }
+    .change-lotery{
+        max-width: 90%;
     }
     .list-db{
         max-height: 146px;
@@ -4423,6 +4466,17 @@
     .mobile-upgrade {
         display: none;
     }
+    .lotery-wax::before {
+        width: 36px;
+        height: 36px;
+    }
+    .center-change .lotery-wax {
+        font-size: 40px;
+        padding-right: 45px;
+    }
+    .center-change .jeckpot {
+        margin-bottom: 5px;
+    }
 }
 @media only screen  and (max-width: 415px){
     .buy-wax .balance-footer-block {
@@ -4451,11 +4505,8 @@
         height: 100%;
     }
     .center-change .jeckpot{
-        margin-bottom: 15px;
-        margin-top: 24px;
-    }
-    .center-change .lotery-wax {
-        font-size: 40px;
+        margin-bottom: 14px;
+        margin-top: 5px;
     }
 }
 
@@ -4518,6 +4569,9 @@
         top: 16px;
         bottom: -29px;
         border-radius: 13px;
+    }
+    .center-change .jeckpot {
+        font-size: 36px;
     }
     .sotu-container {
         max-width: 304px;

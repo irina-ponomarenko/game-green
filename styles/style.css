@@ -220,19 +220,20 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 }
 .button-btn{
     border-radius: 10px;
-    background: linear-gradient(to bottom, rgba(118,201,71,1) 0%, rgba(93,181,49,1) 100%);
+    background: linear-gradient(to bottom, rgba(246,217,27,1) 0%, rgba(250,189,4,1) 100%);
     width: 161px;
     text-align: center;
     height: 46px;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 1px -6px 0px -1px rgba(85,170,44,1) inset, 1px 6px 0px -1px rgba(135,208,92,1) inset;
+    box-shadow: 1px -6px 0px -1px rgba(238, 175,1, 0.7) inset, 1px 6px 0px -1px rgba(248, 231,92, 0.7) inset;
     position: relative;
     z-index: 1;
     top: -1px;
     border: none;
     font-weight: bold;
+    color: #000;
 }
 .button-btn:before{
     content: '';
@@ -245,25 +246,37 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     height: 6px;
 }
 .button-btn:hover{
-    background: linear-gradient(to bottom, rgba(93,181,49,1) 0%, rgba(118,201,71,1) 100%);
-    box-shadow: 1px -6px 0px -1px rgba(135,208,92,1) inset, 1px 6px 0px -1px rgba(85,170,44,1)  inset;
+    background: linear-gradient(to bottom, rgba(250,189,4,1) 0%, rgba(246,217,27,1) 100%);
+    box-shadow: 1px -6px 0px -1px rgba(248, 231,92, 0.7) inset, 1px 6px 0px -1px rgba(238, 175,1, 0.7) inset;
+    color: #000;
 }
 .btn-back-wrapper{
     background-color: #4fa42f;
     z-index: 0;
     border-radius: 10px;
     padding: 0 1px;
-    -webkit-box-shadow: 0px -1px 1px 5px rgba(81,168,48,1);
-    -moz-box-shadow: 0px -1px 1px 5px rgba(81,168,48,1);
-    box-shadow: 0px -1px 1px 5px rgba(81,168,48,1);
+    -webkit-box-shadow: 0px 0px 0px 5px rgba(72,138,65,1);
+    -moz-box-shadow: 0px 0px 0px 5px rgba(72,138,65,1);
+    box-shadow: 0px -1px 1px 5px rgba(72,138,65,1);
     margin-right: 20px;
 }
 .btn-back-wrapper:last-child{
     margin-right: 0;
 }
+.back{
+    background: linear-gradient(to bottom, rgba(216,233,245,1) 0%, rgba(187,208,233,1) 100%);
+    box-shadow: 1px -6px 0px -1px rgba(175,195,210,1) inset, 1px 6px 0px -1px rgba(223,238,248,1) inset;
+    color: #000;
+}
+.back:hover{
+    background: linear-gradient(to bottom, rgba(187,208,233,1) 0%, rgba(216,233,245,1) 100%);
+    box-shadow: 1px -6px 0px -1px rgba(223,238,248,1) inset, 1px 6px 0px -1px rgba(175,195,210,1) inset;
+    color: #000;
+}
 .back span{
     position: relative;
     padding-left: 27px;
+    color: #000;
 }
 .back span:after{
     content: '';
@@ -274,22 +287,25 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     left: 0;
 }
 .blue-btn{
-    background: linear-gradient(to bottom, rgba(88,139,249,1) 0%, rgba(46,106,236,1) 100%);
-    box-shadow: 1px -6px 0px -1px rgba(44, 101,224, 0.7)  inset, 1px 6px 0px -1px rgba(107, 153,251, 0.7) inset;
+    background: linear-gradient(to bottom, rgba(213, 95, 202,1) 0%, rgba(171, 38, 190,1) 100%);
+    box-shadow: 1px -6px 0px -1px rgba(166, 31, 190, 0.7) inset, 1px 6px 0px -1px rgba(225, 124, 207, 0.7) inset;
     width: 96px;
     height: 40px;
     font-size: 13px;
     font-weight: bold;
     border-radius: 8px;
+    color: #fff;
 }
 .btn-green{
     width: 100px;
     background: linear-gradient(to bottom, rgba(160,224,86,1) 0%, rgba(97,183,35,1) 100%);
     box-shadow: 1px -6px 0px -1px rgba(94, 176,36, 0.7)  inset, 1px 6px 0px -1px rgba(167, 226,101, 0.7) inset;
+    color: #fff;
 }
 .btn-green:hover{
     background: linear-gradient(to bottom, rgba(97,183,35,1) 0%, rgba(160,224,86,1) 100%);
     box-shadow: 1px -6px 0px -1px rgba(167, 226,101, 0.7)  inset, 1px 6px 0px -1px rgba(94, 176,36, 0.7) inset;
+    color: #fff;
 }
 .btn-header{
     width: 100px;
@@ -302,8 +318,9 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     border-radius: 8px;
 }
 .blue-btn:hover{
-    background: linear-gradient(to bottom, rgba(46,106,236,1) 0%, rgba(88,139,249,1) 100%);
-    box-shadow: 1px -6px 0px -1px rgba(107, 153,251, 0.7)  inset, 1px 6px 0px -1px rgba(44, 101,224, 0.7) inset;
+    background: linear-gradient(to bottom, rgba(171, 38, 190,1) 0%, rgba(213, 95, 202,1) 100%);
+    box-shadow: 1px -6px 0px -1px rgba(225, 124, 207, 0.7) inset, 1px 6px 0px -1px rgba(166, 31, 190, 0.7) inset;
+    color: #fff;
 }
 .left-header-content{
     display: flex;
@@ -814,11 +831,13 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #fff;
 
 }
 .upgrade-btn:hover{
     background: linear-gradient(to bottom, rgba(117,201,64,1) 0%, rgba(138,209,93,1) 100%);
     box-shadow: 1px -6px 0px -1px rgba(154,215,115,1) inset, 1px 6px 0px -1px rgba(106,189,54,1) inset;
+    color: #fff;
 }
 .wrapper-btn-upgrade{
    text-align: center;
@@ -834,8 +853,8 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     padding: 7px;
 }
 .wax-time{
-    border: 3px solid #488827;
-    background: linear-gradient(to bottom, rgba(140,210,100,1) 0%, rgba(112,199,62,1) 100%);
+    border: 3px solid #509c2b;
+    background: linear-gradient(to bottom, rgba(120,202,74,1) 0%, rgba(101,180,63,1) 100%);
     -webkit-box-shadow: 0px 0px 0px 4px rgba(162,162,162,0.5);
     -moz-box-shadow: 0px 0px 0px 4px rgba(162,162,162,0.5);
     box-shadow: 0px 0px 0px 4px rgba(162,162,162,0.5);
@@ -877,7 +896,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     background: linear-gradient(to right, rgba(124,124,124,1) 0%, rgba(155,155,155,1) 100%);
 }
 .wax-time .score{
-    background-color: #74b74d;
+    background-color: #63ab36;
 }
 .wrapper-active{
     position: absolute;
@@ -1424,7 +1443,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     background-size: contain;
 }
 .text-info-round{
-    background-color: #74b74d;
+    background-color: #63ab36;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -1437,8 +1456,8 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 .header-round{
      max-width: 566px;
      width: 100%;
-     border: 3px solid #488827;
-     background: linear-gradient(to bottom, rgba(140,210,100,1) 0%, rgba(112,199,62,1) 100%);
+     border: 3px solid #509c2b;
+    background: linear-gradient(to bottom, rgba(120,202,74,1) 0%, rgba(101,180,63,1) 100%);
     -webkit-box-shadow: 0px 0px 0px 4px rgba(162,162,162,0.5);
     -moz-box-shadow: 0px 0px 0px 4px rgba(162,162,162,0.5);
     box-shadow: 0px 0px 0px 4px rgba(162,162,162,0.5);
@@ -1466,8 +1485,8 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     width: 121px;
     position: relative;
     font-size: 16px;
-    background: linear-gradient(to bottom, rgba(88,139,249,1) 0%, rgba(44,105,236,1) 100%);
-    box-shadow: 1px -6px 0px -1px rgba(44, 101, 224, 0.8) inset, 1px 6px 0px -1px rgba(105, 151, 250, 0.8) inset;
+    background: linear-gradient(to bottom, rgba(213, 95, 202,1) 0%, rgba(171, 38, 190,1) 100%);
+    box-shadow: 1px -6px 0px -1px rgba(166, 31, 190, 0.7) inset, 1px 6px 0px -1px rgba(225, 124, 207, 0.7) inset;
 }
 .green-btn{
     width: 121px;
@@ -1484,33 +1503,42 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 .green-btn:hover{
     background: linear-gradient(to bottom, rgba(97,183,35,1 ) 0%, rgba(160,224,86,1) 100%);
     box-shadow: 1px -6px 0px -1px rgba(167, 226,101, 0.7) inset, 1px 6px 0px -1px rgba(94, 176,36, 0.7) inset;
+    color: #fff;
 }
 .lotery-game{
     width: 250px;
     margin: 0 auto;
     text-align: center;
     height: 60px;
+    color: #fff;
+}
+.lotery span{
+    color: #000;
+}
+.lotery:hover{
+    color: #000;
 }
 .btn-blue:hover{
-     background: linear-gradient(to bottom, rgba(44,105,236,1) 0%, rgba(88,139,249,1) 100%);
-    box-shadow: 1px -6px 0px -1px rgba(105, 151, 250, 0.8) inset, 1px 6px 0px -1px rgba(44, 101, 224, 0.8) inset;
+    background: linear-gradient(to bottom, rgba(171, 38, 190,1) 0%, rgba(213, 95, 202,1) 100%);
+    box-shadow: 1px -6px 0px -1px rgba(225, 124, 207, 0.7) inset, 1px 6px 0px -1px rgba(166, 31, 190, 0.7) inset;
 }
 .red-btn{
-    background: linear-gradient(to bottom, rgba(245,123,53,1) 0%, rgba(242,75,29,1) 100%);
-    box-shadow: 1px -6px 0px -1px rgba(230, 75, 28, 0.8) inset, 1px 6px 0px -1px rgba(246, 135, 73, 0.8) inset;
+    background: linear-gradient(to bottom, rgba(243,63,71,1) 0%, rgba(181,21,77,1) 100%);
+    box-shadow: 1px -6px 0px -1px rgba(159, 16, 69, 0.8) inset, 1px 6px 0px -1px rgba(251, 103, 106, 0.8) inset;
 }
 .red-btn:hover{
-    background: linear-gradient(to bottom, rgba(242,75,29,1) 0%, rgba(245,123,53,1) 100%);
-    box-shadow: 1px -6px 0px -1px rgba(246, 135, 73, 0.8) inset, 1px 6px 0px -1px rgba(230, 75, 28, 0.8) inset;
+    background: linear-gradient(to bottom, rgba(181,21,77,1) 0%, rgba(243,63,71,1) 100%);
+    box-shadow: 1px -6px 0px -1px rgba(251, 103, 106, 0.8) inset, 1px 6px 0px -1px rgba(159, 16, 69, 0.8) inset;
 }
 .btn-blue::after,
 .green-btn::after,
-.red-btn:after{
+.red-btn:after,
+.bay-bee-btn:after{
     content: '';
     position: absolute;
-    -webkit-box-shadow: 0px 0px 0px 5px rgba(81,168,48,1);
-    -moz-box-shadow: 0px 0px 0px 5px rgba(81,168,48,1);
-    box-shadow: 0px -1px 1px 5px rgba(81,168,48,1);
+    -webkit-box-shadow: 0px 0px 0px 5px rgba(107,180,66,1);
+    -moz-box-shadow: 0px 0px 0px 5px rgba(107,180,66,1);
+    box-shadow: 0px -1px 1px 5px rgba(107,180,66,1);
     left: 0;
     right: 0;
     bottom: 0;
@@ -2672,10 +2700,10 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 .buy-honey-bank h3{
     font-size: 16px;
     color: #326909;
-    text-align: left;
+    text-align: center;
     font-weight: bold;
     margin-bottom: 13px;
-    align-self: flex-start;
+    align-self: center;
 }
 .buy-input{
     background-color: transparent;
@@ -3163,15 +3191,15 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 .container-adress-wallet h3{
     text-align: center;
     font-size: 16px;
-    color: #7b3701;
+    color: #326909;
     margin-bottom: 10px;
 }
 .wallet-input{
     border-radius: 10px;
-    border: 2px solid #e38d11;
+    border: 2px solid #60be19;
     padding: 10px 5px;
-    background-color: #f6f3da;
-    color: #7b3701;
+    background-color: #fff;
+    color: #326909;
     font-size: 20px;
     text-align: center;
     width: 100%;
@@ -3180,7 +3208,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 }
 .attention-text{
     font-size: 16px;
-    color: #f24f1e;
+    color: #5dc137;
     max-width: 335px;
     text-align: center;
     margin: 0 auto;
@@ -4519,13 +4547,13 @@ border-radius: 10px;
 }
 .title-item-questions{
     font-size: 20px;
-    color: #7b3701;
+    color: #326909;
     font-weight: bold;
 }
 
 .item-questions{
-    border-top: 1px solid #f0c67b;
-    border-bottom: 1px solid #f0c67b;
+    border-top: 1px solid #aff08b;
+    border-bottom: 1px solid #aff08b;
 }
 .list-questions{
     margin-right: 5px;
@@ -5255,13 +5283,17 @@ body.dialogShowing {
 .lotery-wax{
     font-size: 30px;
     margin-left: 0;
-    padding-left: 40px;
+    padding-left: 0;
+    padding-right: 55px;
+    color: #5dc137;
 }
 .lotery-wax::before {
     background: url("../image/wax.png")no-repeat;
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
     bottom: 0;
+    left: inherit;
+    right: 0;
     background-size: contain;
 }
 .change-lotery{
@@ -5269,8 +5301,12 @@ body.dialogShowing {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 45px;
     max-width: 80%;
+    background: url("../image/jekpot-bg.png")no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 15px 0;
 }
 
 .wrapper-pay-bee-input{
@@ -5333,8 +5369,9 @@ body.dialogShowing {
 @keyframes shadow-btn {to {box-shadow: 0 0 0 30px rgba(175,255,124,0.3);}}
 
 .center-change .lotery-wax {
-    font-size: 40px;
+    font-size: 50px;
     margin-right: 0;
+    color: #5dc137;
 }
 
 .cripto-transfer:hover{
@@ -5497,4 +5534,14 @@ body.dialogShowing {
 }
 .resourse-header{
     max-width: fit-content;
+}
+.btn-light-blue{
+    background: linear-gradient(to bottom, rgba(216,233,245,1) 0%, rgba(187,208,233,1) 100%);
+    box-shadow: 1px -6px 0px -1px rgba(175,195,210,1) inset, 1px 6px 0px -1px rgba(223,238,248,1) inset;
+    color: #000;
+}
+.btn-light-blue:hover{
+    background: linear-gradient(to bottom, rgba(187,208,233,1) 0%, rgba(216,233,245,1) 100%);
+    box-shadow: 1px -6px 0px -1px rgba(223,238,248,1) inset, 1px 6px 0px -1px rgba(175,195,210,1) inset;
+    color: #000;
 }
