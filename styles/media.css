@@ -375,8 +375,8 @@
     .btn-back-wrapper{
         height: 41px;
     }
-    .wrapper-social-list{
-        bottom: 10px;
+    .wrapper-social-list {
+        top: 190px;
     }
     .cripto-transfer{
         top: 100px
@@ -2490,6 +2490,9 @@
         top: 2522px;
         left: 2px;
     }
+    .wrapper-social-list {
+        top: 281px;
+    }
     .top-progress {
         max-width: 521px;
         margin-left: 120px;
@@ -3688,7 +3691,7 @@
         width: 100%;
     }
     .wrapper-social-list{
-        bottom: 2%;
+        top: 263px;
         right: 5px;
     }
     .cripto-transfer{
