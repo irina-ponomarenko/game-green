@@ -375,6 +375,9 @@
     .btn-back-wrapper{
         height: 41px;
     }
+    .wrapper-social-list{
+        bottom: 10%;
+    }
     .btn-drop-down{
         width: 38px;
         height: 38px;
@@ -760,8 +763,8 @@
     }
     .give-medale-1{
         font-size: 21px;
-        margin-top: 19px;
-        margin-bottom: 19px;
+        margin-top: 9px;
+        margin-bottom: 10px;
     }
     .reward-2{
         font-size: 24px;
@@ -904,12 +907,8 @@
     }
     .reffer-link-container {
         padding: 10px;
-        max-width: 320px;
+        max-width: 98%;
         width: 100%;
-    }
-    .reffer-btn{
-        width: 118px;
-        height: 40px;
     }
     .glashatai {
         margin: 0 auto;
@@ -955,6 +954,9 @@
     }
     .center-change {
         margin-bottom: 8px;
+    }
+    .your-reit, .your-reit span{
+        font-size: 32px;
     }
 }
 
@@ -1132,7 +1134,15 @@
     .btn-menu{
         width: 50px;
         height: 50px;
+        background: linear-gradient(to bottom, rgba(216,233,245,1) 0%, rgba(187,208,233,1) 100%);
+        box-shadow: 1px -6px 0px -1px rgba(175,195,210,1) inset, 1px 6px 0px -1px rgba(223,238,248,1) inset;
     }
+     .btn-menu:hover{
+        background: linear-gradient(to bottom, rgba(187,208,233,1) 0%, rgba(216,233,245,1) 100%);
+        box-shadow: 1px -6px 0px -1px rgba(223,238,248,1) inset, 1px 6px 0px -1px rgba(175,195,210,1) inset;
+
+    }
+
     .btn-menu:after{
         content: '';
         position: absolute;
@@ -1702,7 +1712,7 @@
         min-height: auto;
         max-height: 504px;
      }
-     .mehanizm-container{
+     .mehanizm-container, .mehanizm-bear, .mehanizm-honey, .mehanizm-raccoon, .mehanizm-opossum, .mehanizm-beek, .mehanizm-ai{
         bottom: 29px;
          left: 11%;
      }
@@ -1760,7 +1770,10 @@
      }
      .title-round,
      .info-round{
-        color: #823600;
+        color: #31651a;
+     }
+     .info-round{
+        font-weight: normal;
      }
      .btn-blue{
          width: 100%;
@@ -2070,7 +2083,7 @@
     }
     .bottom-footer-content{
         flex-direction: column-reverse;
-         border-top: 1px solid  #53932a;
+         border-top: 1px solid  #73a858;
     }
     .wrapper-info-game p{
         margin-top: 20px;
@@ -2090,7 +2103,7 @@
     }
     .container-list-footer{
         padding: 0 20px;
-        border-bottom: 1px solid #53932a;
+        border-bottom: 1px solid #73a858;
     }
     .item-social-footer{
         margin: 24px 0;
@@ -2444,13 +2457,13 @@
 
 }
 @media screen and (max-width: 915px) and (min-width: 320px) {
-    .mehanizm-container{
+    .mehanizm-container, .mehanizm-bear, .mehanizm-honey, .mehanizm-raccoon, .mehanizm-opossum, .mehanizm-beek, .mehanizm-ai{
         left: 9%;
     }
 
 }
 @media screen and (max-width: 865px) and (min-width: 320px) {
-    .mehanizm-container {
+     .mehanizm-container, .mehanizm-bear, .mehanizm-honey, .mehanizm-raccoon, .mehanizm-opossum, .mehanizm-beek, .mehanizm-ai{
         bottom: 29px;
         left: 7%;
     }
@@ -2479,8 +2492,8 @@
         top: 26%;
         z-index: 1000000;
         width: 48px;
-        height: 48px;
-        font-size: 18px;
+        height: 52px;
+        font-size: 15px;
     }
     @-webkit-keyframes shadow-btn {to {box-shadow: 0 0 0 10px rgba(175,255,124,0.3);}}
     @-moz-keyframes shadow-btn {to {box-shadow: 0 0 0 10px rgba(175,255,124,0.3);}}
@@ -2634,6 +2647,19 @@
         width: 38px;
         height: 39px;
     }
+    .your-reit, .your-reit span{
+        margin: 7px 0;
+    }
+    .wax-reward:before {
+        width: 40px;
+        height: 36px;
+    }
+    .wax-reward {
+        padding-left: 49px;
+    }
+    .next-reward {
+        margin-top: 15px;
+    }
 
 }
 @media screen and (max-width: 1024px)and (min-width: 768px) and (orientation:portrait){
@@ -2752,21 +2778,21 @@
         font-size: 14px;
     }
     .give-medale {
-        margin-top: 11px;
-        margin-bottom: 12px;
-        font-size: 16px;
+        margin-top: 7px;
+        margin-bottom: 7px;
+        font-size: 15px;
     }
     .title-reward {
         font-size: 16px;
         font-weight: bold;
-        margin-bottom: 18px;
+        margin-bottom: 12px;
     }
     .next-medal {
         font-size: 16px;
         margin-top: 5px;
     }
     .next-reward {
-        margin-top: 17px;
+        margin-top: 12px;
     }
     .summa-dohod img{
         max-width: 25px;
@@ -3117,11 +3143,14 @@
     .lotery-game{
         height: 33px;
     }
+    .your-reit, .your-reit span{
+        font-size: 26px;
+    }
 
 }
 
 @media screen and (max-width: 720px) and (min-width: 320px) {
-    .mehanizm-container {
+     .mehanizm-container, .mehanizm-bear, .mehanizm-honey, .mehanizm-raccoon, .mehanizm-opossum, .mehanizm-beek, .mehanizm-ai{
         bottom: 29px;
         left: 5%;
     }
@@ -3132,7 +3161,7 @@
     }
 }
 @media screen and (max-width: 700px) and (min-width: 320px){
-    .mehanizm-container {
+    .mehanizm-container, .mehanizm-bear, .mehanizm-honey, .mehanizm-raccoon, .mehanizm-opossum, .mehanizm-beek, .mehanizm-ai{
         bottom: 29px;
         left: 4%;
     }
@@ -3145,7 +3174,7 @@
     }
 }
 @media screen and (max-width: 685px) and (min-width: 320px){
-    .mehanizm-container {
+     .mehanizm-container, .mehanizm-bear, .mehanizm-honey, .mehanizm-raccoon, .mehanizm-opossum, .mehanizm-beek, .mehanizm-ai{
         bottom: 29px;
         left: 3%;
     }
@@ -3314,11 +3343,11 @@
     .wrapper-input {
         max-width: 100%;
     }
-    .mehanizm-container {
+     .mehanizm-container, .mehanizm-bear, .mehanizm-honey, .mehanizm-raccoon, .mehanizm-opossum, .mehanizm-beek, .mehanizm-ai{
         left: 3%;
         bottom: 6px;
     }
-    .mehanizm-container{
+     .mehanizm-container, .mehanizm-bear, .mehanizm-honey, .mehanizm-raccoon, .mehanizm-opossum, .mehanizm-beek, .mehanizm-ai{
         max-width: 160px;
         background-size: contain;
     }
@@ -3342,7 +3371,7 @@
     }
 }
 @media screen and (max-width: 645px) and (min-width: 320px){
-    .mehanizm-container {
+    .mehanizm-container, .mehanizm-bear, .mehanizm-honey, .mehanizm-raccoon, .mehanizm-opossum, .mehanizm-beek, .mehanizm-ai{
         left: 1%;
         bottom: 6px;
     }
@@ -3453,14 +3482,14 @@
         max-width: 492px;
         margin-left: 78px;
     }
-    .mehanizm-container {
+     .mehanizm-container, .mehanizm-bear, .mehanizm-honey, .mehanizm-raccoon, .mehanizm-opossum, .mehanizm-beek, .mehanizm-ai{
         left: 0;
         bottom: 6px;
     }
 
 }
 @media screen and (max-width: 610px) and (min-width: 320px){
-    .mehanizm-container {
+    .mehanizm-container, .mehanizm-bear, .mehanizm-honey, .mehanizm-raccoon, .mehanizm-opossum, .mehanizm-beek, .mehanizm-ai{
         max-width: 140px;
         background-size: contain;
         bottom: 0;
@@ -3548,7 +3577,7 @@
     .trumpet-wax {
         left: -4px;
     }
-    .mehanizm-container {
+    .mehanizm-container, .mehanizm-bear, .mehanizm-honey, .mehanizm-raccoon, .mehanizm-opossum, .mehanizm-beek, .mehanizm-ai{
         max-width: 131px;
         background-size: contain;
         bottom: 0;
@@ -3651,6 +3680,13 @@
     }
     .mobile-banner {
         width: 100%;
+    }
+    .wrapper-social-list{
+        bottom: 2%;
+        right: 5px;
+    }
+    .cripto-transfer{
+        right: 5px;
     }
     .game-need {
         font-size: 14px;
@@ -3786,7 +3822,7 @@
         width: 80px;
         background-size: contain;
     }
-    .mehanizm-container{
+     .mehanizm-container, .mehanizm-bear, .mehanizm-honey, .mehanizm-raccoon, .mehanizm-opossum, .mehanizm-beek, .mehanizm-ai{
         background-size: contain;
         left: 15px;
         max-width: 115px;
@@ -3831,7 +3867,7 @@
         z-index: 152;
         background-size: cover;
     }
-    .mehanizm-container {
+    .mehanizm-container, .mehanizm-bear, .mehanizm-honey, .mehanizm-raccoon, .mehanizm-opossum, .mehanizm-beek, .mehanizm-ai{
         bottom: -32px;
     }
     .active-bank img {
@@ -4419,10 +4455,6 @@
     }
     .reffer-link-container{
         padding: 8px;
-        max-width: 190px;
-    }
-    .reffer-link{
-        max-width: 180px;
     }
     .wrapper-reffer-link{
         max-width: 321px;
@@ -4518,6 +4550,23 @@
         width: 86%;
         background-position: left 51px top;
         height: 28px;
+    }
+    .social-link {
+        width: 28px;
+        height: 28px;
+        font-size: 10px;
+    }
+    .social-icon{
+        width: 31px;
+        height: 34px;
+        background-size: 43%;
+    }
+    .fb-icon,
+    .bt-icon{
+        background-size: 30%;
+    }
+    .social-item {
+        margin-bottom: 6px;
     }
     .cripto-transfer {
         top: 30%;
@@ -4619,10 +4668,7 @@
     .header-sections{
         padding-bottom: 25px;
     }
-    .reffer-btn{
-        width: 101px;
-        font-size: 13px;
-    }
+
     .item-btn{
         margin-right: 0;
     }
@@ -4792,6 +4838,7 @@
 @media screen and (max-width: 360px) and (min-width: 320px) {
     .header-round {
         top: -71px;
+        margin-right: 36px;
     }
 
 }

@@ -352,13 +352,13 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     padding-left: 53px;
     padding-right: 12px;
     text-align: left;
-    color: #feeb93;
+    color: #edffcc;
     font-weight: bold;
     font-size: 38px;
     max-width: 190px;
 }
 .input-form::placeholder{
-    color: #feeb93;
+    color: #edffcc;
 }
 .input-form:focus{
    outline: none;
@@ -622,6 +622,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 .reit{
     position: relative;
     margin-right: 5px;
+    width: 110px;
 }
 .reit:after{
     content: '';
@@ -792,6 +793,72 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 .mehanizm-container{
     width: 100%;
     background: url("../image/mehanizm.png")no-repeat;
+    background-position: left;
+    height: 337px;
+    position: absolute;
+    bottom: 50px;
+    left: 32px;
+    max-width: 180px;
+    width: 100%;
+}
+.mehanizm-bear{
+    width: 100%;
+    background: url("../image/mehanizm-1.png")no-repeat;
+    background-position: left;
+    height: 337px;
+    position: absolute;
+    bottom: 50px;
+    left: 32px;
+    max-width: 180px;
+    width: 100%;
+}
+.mehanizm-honey{
+    width: 100%;
+    background: url("../image/mehanizm-2.png")no-repeat;
+    background-position: left;
+    height: 337px;
+    position: absolute;
+    bottom: 50px;
+    left: 32px;
+    max-width: 180px;
+    width: 100%;
+}
+.mehanizm-raccoon{
+    width: 100%;
+    background: url("../image/mehanizm-3.png")no-repeat;
+    background-position: left;
+    height: 337px;
+    position: absolute;
+    bottom: 50px;
+    left: 32px;
+    max-width: 180px;
+    width: 100%;
+}
+.mehanizm-opossum{
+    width: 100%;
+    background: url("../image/opossum.png")no-repeat;
+    background-position: left;
+    height: 337px;
+    position: absolute;
+    bottom: 50px;
+    left: 32px;
+    max-width: 180px;
+    width: 100%;
+}
+.mehanizm-beek{
+    width: 100%;
+    background: url("../image/beek.png")no-repeat;
+    background-position: left;
+    height: 337px;
+    position: absolute;
+    bottom: 50px;
+    left: 32px;
+    max-width: 180px;
+    width: 100%;
+}
+.mehanizm-ai{
+     width: 100%;
+    background: url("../image/ai.png")no-repeat;
     background-position: left;
     height: 337px;
     position: absolute;
@@ -1499,6 +1566,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     width: 121px;
     position: relative;
     font-size: 16px;
+    color: #fff;
 }
 .green-btn:hover{
     background: linear-gradient(to bottom, rgba(97,183,35,1 ) 0%, rgba(160,224,86,1) 100%);
@@ -1514,6 +1582,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 }
 .lotery span{
     color: #000;
+    font-size: 17px;
 }
 .lotery:hover{
     color: #000;
@@ -1529,6 +1598,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 .red-btn:hover{
     background: linear-gradient(to bottom, rgba(181,21,77,1) 0%, rgba(243,63,71,1) 100%);
     box-shadow: 1px -6px 0px -1px rgba(251, 103, 106, 0.8) inset, 1px 6px 0px -1px rgba(159, 16, 69, 0.8) inset;
+    color: #fff;
 }
 .btn-blue::after,
 .green-btn::after,
@@ -1547,6 +1617,9 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     height: 100%;
     border-radius: 10px;
 }
+.bay-bee-btn{
+    width: 121px;
+}
 .lotery-game:after{
     -webkit-box-shadow: 0px 0px 0px 4px rgba(155,155,155,0.31);
     -moz-box-shadow: 0px 0px 0px 4px rgba(155,155,155,0.31);
@@ -1554,9 +1627,9 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 }
 .none-active,
 .none-active:hover{
-    background: linear-gradient(to bottom, rgba(53,193,53,1) 0%, rgba(70,204,70,1) 100%);
-    box-shadow: 1px -6px 0px -1px rgba(50,183,50,1) inset, 1px 6px 0px -1px rgba(93,211,93,1) inset;
-    color: #c8faac;
+    background: linear-gradient(to bottom, rgba(246,217,27,1) 0%, rgba(250,189,40,1) 100%);
+    box-shadow: 1px -6px 0px -1px rgba(238, 175,1, 0.5) inset, 1px 6px 0px -1px rgba(248, 231,92, 0.5) inset;
+    color: #f4f1c8;
     opacity: 0.8;
 }
 .none-active:hover{
@@ -2361,13 +2434,6 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     padding-right: 41px;
     display: block;
 }
-.count-bee{
-    font-size: 40px;
-    border-radius: 10px;
-    display: inline-block;
-    position: relative;
-    margin-right: 5px;
-}
 .nuber-position:before{
     content: '';
     position: absolute;
@@ -2871,6 +2937,13 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     padding-left: 47px;
     position: relative;
 }
+.my-bee-home .count-bee{
+    font-size: 40px;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    margin-right: 5px;
+}
 .price-bee:before{
     content: '';
     position: absolute;
@@ -2942,8 +3015,8 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     font-size: 26px;
     font-weight: bold;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 24px;
+    margin-top: 22px;
+    margin-bottom: 17px;
 }
 .reward-block{
     margin: 0 auto;
@@ -2986,10 +3059,10 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
    top: -7px;
 }
 .title-reward{
-    font-size: 26px;
+    font-size: 30px;
     color: #16b60a;
     font-weight: bold;
-    margin-bottom: 38px;
+    margin-bottom: 20px;
 }
 .next-medal{
     font-size: 20px;
@@ -2998,14 +3071,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     margin-top: 14px;
 }
 .small-medal{
-    width: 30px;
-    height: 30px;
-    background: url("../image/medal.png")no-repeat;
-    background-size: contain;
-    display: inline-block;
-    position: relative;
-    top: 8px;
-    margin: 0 5px;
+    color: #16b60a;
 }
 .next-reward span{
     font-size: 26px;
@@ -3853,6 +3919,12 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 .btn-menu-landing{
     width: 45px;
     height: 45px;
+    background: linear-gradient(to bottom, rgba(216,233,245,1) 0%, rgba(187,208,233,1) 100%);
+    box-shadow: 1px -6px 0px -1px rgba(175,195,210,1) inset, 1px 6px 0px -1px rgba(223,238,248,1) inset;
+}
+.btn-menu-landing:hover{
+    background: linear-gradient(to bottom, rgba(187,208,233,1) 0%, rgba(216,233,245,1) 100%);
+    box-shadow: 1px -6px 0px -1px rgba(223,238,248,1) inset, 1px 6px 0px -1px rgba(175,195,210,1) inset;
 }
 .btn-menu-landing::after {
     content: '';
@@ -3887,17 +3959,20 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     margin-bottom: 10px;
 }
 .reffer-link-container{
-    background-color: #f6f3dd;
+    background-color: #fff;
     border-radius: 10px;
-    border: 3px solid #f0c67b;
+    border: 3px solid #79d456;
     padding: 15px;
-    max-width: 400px;
+    max-width: 98%;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
 }
 .reffer-link{
     font-size: 16px;
     color: #4d4d4d;
-    max-width: 245px;
+    max-width: 90%;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -3923,20 +3998,6 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     flex-direction: column;
     width: 100%;
     margin-right: 15px;
-}
-.reffer-btn::after{
-    content: '';
-position: absolute;
--webkit-box-shadow: 0px 0px 0px 4px rgba(155,155,155,0.31);
--moz-box-shadow: 0px 0px 0px 4px rgba(155,155,155,0.31);
-box-shadow: 0px 0px 0px 4px rgba(155,155,155,0.31);
-left: 0;
-right: 0;
-bottom: 0;
-top: 0;
-width: 100%;
-height: 100%;
-border-radius: 10px;
 }
 .table-arrow{
     border: none;
@@ -4951,6 +5012,7 @@ body.dialogShowing {
 .btn-item{
     width: 162px !important;
     font-size: 14px;
+    color: #fff;
 }
 .btn-item{
     background: linear-gradient(to bottom, rgba(252,190,54,1) 0%, rgba(238,152,26,1) 100%);
@@ -5349,41 +5411,31 @@ body.dialogShowing {
     position: fixed;
     right: 10px;
     width: 60px;
-    height: 60px;
+    height: 70px;
     font-weight: bolder;
-    color: #FFFFFF;
     font-size: 20px;
-    border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 1px -6px 0px -1px rgba(121,217,43,1) inset, 1px 6px 0px -1px rgba(168,240,110,1) inset;
     top: 20%;
-    background: linear-gradient(to bottom, rgba(156,237,90,1) 0%, rgba(132,230,52,1) 100%);
+    color: #176000;
+    background: url("../image/eth.png")no-repeat;
+    background-size: contain;
     z-index: 100000;
-    animation: shadow-btn 2s infinite ease-in-out;
-}
-@-webkit-keyframes shadow-btn {to {box-shadow: 0 0 0 30px rgba(175,255,124,0.3);}}
-@-moz-keyframes shadow-btn {to {box-shadow: 0 0 0 30px rgba(175,255,124,0.3);}}
-@-ms-keyframes shadow-btn {to {box-shadow: 0 0 0 30px rgba(175,255,124,0.3);}}
-@keyframes shadow-btn {to {box-shadow: 0 0 0 30px rgba(175,255,124,0.3);}}
 
+}
 .center-change .lotery-wax {
     font-size: 50px;
     margin-right: 0;
     color: #5dc137;
 }
 
-.cripto-transfer:hover{
-    background: linear-gradient(to bottom, rgba(132,230,52,1) 0%, rgba(156,237,90,1) 100%);
-    box-shadow: 1px -6px 0px -1px rgba(168,240,110,1) inset, 1px 6px 0px -1px rgba(121,217,43,1) inset;
-}
 .center-change .jeckpot{
     font-size: 60px;
     color: rgba(77,142,44,1);
     font-weight: bolder;
     margin: 0 auto;
-    margin-bottom: 15px;
+    margin-bottom: 8px;
     background: -webkit-linear-gradient(rgba(233,22,31,1), rgba(191,4,6,1));
     -webkit-background-clip: text;
     -webkit-text-fill-color:  transparent;
@@ -5406,59 +5458,62 @@ body.dialogShowing {
 }
 .wrapper-social-list{
     position: fixed;
-    bottom: 120px;
+    bottom: 20%;
     right: 10px;
     z-index: 1000;
 }
 .social-icon{
-    width: 37px;
-    height: 37px;
-    border-radius: 100%;
+    width: 35px;
+    height: 41px;
     display: block;
     cursor: pointer;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    background-color: #34ab0f;
 }
 .telegram-icon{
-    background: url("../image/Telegram.png")no-repeat;
-    background-size: contain;
+    background-image: url("../image/soc-telegram.png");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .telegram-chat-icon{
-    background: url("../image/chanel.jpg")no-repeat;
-    background-size: contain;
+    background-image: url("../image/soc-m.png");
+    background-repeat: no-repeat;
     background-position: center;
 }
 .diskord-icon{
-    background: url("../image/discord.svg")no-repeat;
-    background-size: contain;
+    background-image: url("../image/soc-h.png");
+    background-repeat: no-repeat;
     background-position: center;
 }
 .twitter-icon{
-    background: url("../image/twitter.svg")no-repeat;
-    background-size: contain;
+    background-image: url("../image/soc-tw.png");
+    background-repeat: no-repeat;
     background-position: center;
 }
 .fb-icon{
-    background: url("../image/facebook.svg")no-repeat;
-    background-size: contain;
+    background-image: url("../image/soc-fb.png");
+    background-repeat: no-repeat;
     background-position: center;
 }
 .vk-icon{
-    background: url("../image/vk.svg")no-repeat;
-    background-size: contain;
+    background-image: url("../image/soc-vk.png");
+    background-repeat: no-repeat;
     background-position: center;
 }
 .gld-icon{
-    background: url("../image/gld.jpg")no-repeat;
-    background-size: contain;
+    background-image: url("../image/soc-g.png");
+    background-repeat: no-repeat;
     background-position: center;
 }
 .md-icon{
-    background: url("../image/md.png")no-repeat;
-    background-size: contain;
+    background-image: url("../image/soc-md.png");
+    background-repeat: no-repeat;
     background-position: center;
 }
 .bt-icon{
-    background: url("../image/bt.png")no-repeat;
-    background-size: contain;
+    background-image: url("../image/soc-bt.png");
+    background-repeat: no-repeat;
     background-position: center;
 }
 .social-list{
@@ -5467,9 +5522,7 @@ body.dialogShowing {
     align-items: flex-end;
 }
 .social-item{
-    background: linear-gradient(to bottom, rgba(222,222,222,1) 0%, rgba(241,241,241,1) 100%);
-    border-radius: 35px;
-    padding: 4px;
+    margin-bottom: 10px;
 }
 .social-item:last-child{
     margin-bottom: 0;
@@ -5488,6 +5541,9 @@ body.dialogShowing {
     justify-content: center;
     text-shadow: -2px 1px 5px rgba(0,0,0,1);
     font-size: 12px;
+    -webkit-box-shadow: 0px 0px 0px 4px rgba(162,162,162,0.5);
+    -moz-box-shadow: 0px 0px 0px 4px rgba(162,162,162,0.5);
+    box-shadow: 0px 0px 0px 4px rgba(162,162,162,0.5);
 }
 .ru-icon{
     background: url("../image/RU.png")no-repeat;
@@ -5544,4 +5600,20 @@ body.dialogShowing {
     background: linear-gradient(to bottom, rgba(187,208,233,1) 0%, rgba(216,233,245,1) 100%);
     box-shadow: 1px -6px 0px -1px rgba(223,238,248,1) inset, 1px 6px 0px -1px rgba(175,195,210,1) inset;
     color: #000;
+}
+.your-reit,
+.your-reit span{
+    margin: 0 auto;
+    text-align: center;
+    color: #16b60a;
+    font-size: 36px;
+    margin: 14px 0;
+    font-weight: bold;
+}
+.reffer-btn{
+    width: 20px;
+    height: 25px;
+    background: url("../image/copy-icon.png")no-repeat;
+    background-size: contain;
+    border: none;
 }
