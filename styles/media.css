@@ -376,7 +376,13 @@
         height: 41px;
     }
     .wrapper-social-list{
-        bottom: 10%;
+        bottom: 10px;
+    }
+    .cripto-transfer{
+        top: 100px
+    }
+    .social-item{
+        margin-bottom: 6px;
     }
     .btn-drop-down{
         width: 38px;
