@@ -233,7 +233,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     top: -1px;
     border: none;
     font-weight: bold;
-    color: #000;
+    color: #643006;
 }
 .button-btn:before{
     content: '';
@@ -629,7 +629,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     position: absolute;
     -webkit-box-shadow: 0px 0px 0px 5px rgba(81,168,48,1);
     -moz-box-shadow: 0px 0px 0px 5px rgba(81,168,48,1);
-    box-shadow: 0px -1px 1px 5px rgba(81,168,48,1);
+    box-shadow: 0px 0px 0px 5px rgba(81,168,48,1);
     left: 0;
     right: 0;
     bottom: 0;
@@ -640,13 +640,13 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 }
 .info-item{
     border-radius: 20px;
-    border: 2px solid #bd4f00;
+    border: 2px solid #478928;
     max-width: 173px;
     width: 100%;
-    background: linear-gradient(to bottom, rgba(231,100,2,1) 0%, rgba(244,134,1,1) 100%);
-    -webkit-box-shadow: 0px 0px 0px 4px rgba(155,155,155,0.31);
-    -moz-box-shadow: 0px 0px 0px 4px rgba(155,155,155,0.31);
-    box-shadow: 0px 0px 0px 4px rgba(155,155,155,0.31);
+    background: linear-gradient(to bottom, rgba(75,154,39,1) 0%, rgba(90,177,44,1) 100%);
+    -webkit-box-shadow: 0px 0px 0px 4px rgba(210,238,190,0.7);
+    -moz-box-shadow: 0px 0px 0px 4px rgba(210,238,190,0.7);
+    box-shadow: 0px 0px 0px 4px rgba(210,238,190,0.7);
     padding: 7px;
     position: relative;
 }
@@ -656,13 +656,13 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 }
 .title-item{
     font-size: 13px;
-    color: #ffe48a;
+    color: #e4ffbe;
     font-weight: bold;
     text-align: center;
     margin: 7px 0;
 }
 .result{
-    background: linear-gradient(to bottom, rgba(189,107,1,1) 0%, rgba(193,118,1,1) 100%);
+    background: linear-gradient(to bottom, rgba(70,142,30,1) 0%, rgba(75,154,29,1) 100%);
     border-radius: 10px;
     padding: 16px 0;
 }
@@ -1608,7 +1608,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     position: absolute;
     -webkit-box-shadow: 0px 0px 0px 5px rgba(107,180,66,1);
     -moz-box-shadow: 0px 0px 0px 5px rgba(107,180,66,1);
-    box-shadow: 0px -1px 1px 5px rgba(107,180,66,1);
+    box-shadow: 0px 0px 0px 5px rgba(107,180,66,1);
     left: 0;
     right: 0;
     bottom: 0;
@@ -2065,7 +2065,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     position: absolute;
     -webkit-box-shadow: 0px 0px 0px 5px rgba(60,104,56,1);
     -moz-box-shadow: 0px 0px 0px 5px rgba(60,104,56,1);
-    box-shadow: 0px -1px 1px 5px rgba(60,104,56,1);
+    box-shadow: 0px 0px 1px 5px rgba(60,104,56,1);
     left: 0;
     right: 0;
     bottom: 0;
@@ -2697,7 +2697,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
  }
  .center-change,
 .center-change span{
@@ -2769,7 +2769,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     text-align: center;
     font-weight: bold;
     margin-bottom: 13px;
-    align-self: center;
+    align-self: flex-start;
 }
 .buy-input{
     background-color: transparent;
@@ -2785,11 +2785,12 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 }
 .info-buy-honey,
 .info-buy-honey span{
-    color: #16b60a;
+    color: #e83748;
     font-size: 20px;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 15px;
+    font-weight: bold;
 }
 .error-honey{
     max-width: 341px;
@@ -3274,7 +3275,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 }
 .attention-text{
     font-size: 16px;
-    color: #5dc137;
+    color: #e83748;
     max-width: 335px;
     text-align: center;
     margin: 0 auto;
@@ -3401,7 +3402,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     position: absolute;
     -webkit-box-shadow: 0px 0px 0px 5px rgba(72,138,65,1);
     -moz-box-shadow: 0px 0px 0px 5px rgba(72,138,65,1);
-    box-shadow: 0px -1px 1px 5px rgba(72,138,65,1);
+    box-shadow: 0px 0px 0px 5px rgba(72,138,65,1);
     left: 0;
     right: 0;
     bottom: 0;
@@ -4664,7 +4665,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 }
 .title-carousel{
     font-size: 72px;
-    color: #388a00;
+    color: #16b60a;
     text-shadow:
             -0   -14px 6px rgba(255,255,255,0.5),
             0   -14px 6px rgba(255,255,255,0.5),
@@ -4801,7 +4802,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     align-items: center;
 }
 .sub-title-carousel{
-    color: #7b3701;
+    color: #326909;
     font-size: 38px;
     font-weight: bold;
     max-width: 530px;
@@ -5423,7 +5424,7 @@ body.dialogShowing {
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 20%;
+    top: 130px;
     color: #176000;
     background: url("../image/eth.png")no-repeat;
     background-size: contain;
@@ -5464,7 +5465,7 @@ body.dialogShowing {
 }
 .wrapper-social-list{
     position: fixed;
-    top: 229px;
+    top: 260px;
     right: 10px;
     z-index: 1000;
 }
@@ -5540,8 +5541,7 @@ body.dialogShowing {
 }
 .social-link{
     width: 35px;
-    height: 35px;
-    border-radius: 100%;
+    height: 41px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -5550,38 +5550,40 @@ body.dialogShowing {
     -webkit-box-shadow: 0px 0px 0px 4px rgba(162,162,162,0.5);
     -moz-box-shadow: 0px 0px 0px 4px rgba(162,162,162,0.5);
     box-shadow: 0px 0px 0px 4px rgba(162,162,162,0.5);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 .ru-icon{
     background: url("../image/RU.png")no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .en-icon{
     background: url("../image/en.png")no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .china-icon{
     background: url("../image/kitay.png")no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .es-icon{
     background: url("../image/spain.png")no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .in-icon{
     background: url("../image/indonezia.png")no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .bra-icon{
     background: url("../image/braz.png")no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .fil-icon{
     background: url("../image/philippine.png")no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .vn-icon{
     background: url("../image/vetnam.png")no-repeat;
-    background-size: contain;
+   background-size: cover;
 }
 .social-sub-item{
     margin-right: 8px;
@@ -5781,4 +5783,25 @@ body.dialogShowing {
 }
 .change-sponsor:hover{
     color: #e83748;
+}
+.wax-bank{
+    position: relative;
+    padding-right: 34px;
+    margin-top: 5px;
+}
+.wax-bank:before{
+    content: '';
+    position: absolute;
+    width: 26px;
+    height: 25px;
+    background: url("../image/wax.png")no-repeat;
+    right: 0;
+    top: 0;
+    background-size: contain;
+}
+.limit-bee{
+    color: #5dc137;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 19px;
 }
