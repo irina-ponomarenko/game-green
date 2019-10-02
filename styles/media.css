@@ -2,6 +2,7 @@
     .input-form{
         max-width: 130px;
         font-size: 25px;
+        background-size: contain;
     }
     .wrapper-modal{
         max-width: 564px;
@@ -90,6 +91,9 @@
     }
     .table-modal thead th, .table-modal tbody tr td{
         padding: 6px 10px;
+    }
+    .paseka-window .table-modal thead th:nth-child(3), .paseka-window .table-modal tbody tr td:nth-child(3){
+        width: 22%
     }
     .doxod:before{
         width: 18px;
@@ -2209,6 +2213,9 @@
     .center-change{
         margin-bottom: 30px;
     }
+    .paseka-window .table-modal thead th:nth-child(3), .paseka-window .table-modal tbody tr td:nth-child(3){
+        width: 22%
+    }
 
 }
 
@@ -3719,6 +3726,9 @@
         align-items: center;
         justify-content: center;
     }
+    .paseka-window .table-modal thead th:nth-child(3), .paseka-window .table-modal tbody tr td:nth-child(3){
+        width: 20%
+    }
 }
 @media screen and (max-width: 415px) and (min-width: 320px){
     .btn-back-mobile-wrapper{
@@ -4313,6 +4323,9 @@
     }
     .table-modal tbody tr td span{
         font-size: 11px;
+    }
+    .bee-home {
+        max-width: 76px;
     }
     .activ-honey:before{
         width: 14px;
