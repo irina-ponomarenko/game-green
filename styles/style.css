@@ -3973,11 +3973,15 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 .reffer-link{
     font-size: 16px;
     color: #4d4d4d;
-    max-width: 90%;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
     display: inline-block;
+    width: 100%;
+    max-width: 92%;
+    background-color: transparent;
+    border: none;
+    resize: none;
+    vertical-align: middle;
+    line-height: 15px;
+    height: 15px;
 }
 .wrapper-reffer-link{
     display: flex;

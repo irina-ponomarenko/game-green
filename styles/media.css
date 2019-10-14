@@ -916,7 +916,7 @@
         min-height: 292px;
     }
     .reffer-link-container {
-        padding: 10px;
+        padding: 8px 9px;
         max-width: 98%;
         width: 100%;
     }
@@ -2198,7 +2198,7 @@
         min-height: 422px;
     }
     .reffer-link-container{
-        padding: 10px;
+        padding: 8px 10px;
     }
     .wrapper-result-mehanica{
         text-align: center;
@@ -2699,6 +2699,10 @@
     }
     .next-reward {
         margin-top: 15px;
+    }
+    .reffer-link{
+        line-height: 21px;
+        height: 22px;
     }
 
 }
@@ -4575,6 +4579,11 @@
     }
     .change-sponsor{
         font-size: 14px;
+    }
+    .reffer-link{
+        line-height: 14px;
+        height: 17px;
+        font-size: 13px;
     }
 }
 @media only screen  and (max-width: 415px){
