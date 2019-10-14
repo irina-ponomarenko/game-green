@@ -4585,6 +4585,17 @@
         height: 17px;
         font-size: 13px;
     }
+    .landing-social {
+        top: 170px;
+    }
+    .landing-transfer{
+        top: 101px;
+    }
+    .social-link{
+        width: 30px;
+        height: 36px;
+        font-size: 11px;
+    }
 }
 @media only screen  and (max-width: 415px){
     .buy-wax .balance-footer-block {
@@ -4758,6 +4769,12 @@
     .sng-list .item-btn,
     .sng-list .item-btn:nth-child(3n){
         margin-right: 0;
+    }
+    .landing-transfer{
+        top: 100px;
+    }
+    .landing-social {
+        top: 162px;
     }
 }
 
