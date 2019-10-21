@@ -527,12 +527,17 @@
         bottom: 50px;
         left: 395px;
     }
-    .wrapper-content-round::before{
-        width: 156px;
-        height: 159px;
+    .wrapper-content-round::before,
+    .wrapper-content-round .wrapper-lottie{
+        width: 156px !important;
+        height: 159px !important;
         background-size: contain;
         left: -41px;
         top: -67px;
+    }
+    lottie-player{
+        width: 156px !important;
+        height: 159px !important;
     }
     .item-rounds:nth-child(2n+1){
         padding-left: 171px;
@@ -1751,13 +1756,18 @@
      .item-rounds:nth-child(2n+1)::after{
         display: none;
      }
-     .wrapper-content-round::before{
+     .wrapper-content-round::before,
+     .wrapper-content-round .wrapper-lottie{
         width: 135px;
         height: 135px;
         left: -14px;
         top: -62px;
         background-size: contain;
      }
+    lottie-player{
+        width: 135px !important;
+        height: 135px !important;
+    }
      .list-game-rounds{
         margin-left: -55px;
      }
@@ -3972,10 +3982,15 @@
     .button-btn {
         height: 37px;
     }
-    .wrapper-content-round::before{
+    .wrapper-content-round::before,
+    .wrapper-content-round .wrapper-lottie{
         width: 100px;
         height: 100px;
         left: 0;
+    }
+    lottie-player{
+        width: 100px !important;
+        height: 100px !important;
     }
     .window {
         width: 20px;
@@ -4324,6 +4339,9 @@
     .table-modal{
         max-width: 340px;
     }
+    .table-modal.table-super{
+        max-width: 95%;
+    }
     .table-modal tbody tr td span{
         font-size: 11px;
     }
@@ -4354,6 +4372,9 @@
     }
     .table-modal thead th{
         font-size: 13px;
+    }
+     .table-modal.table-super thead th{
+        font-size: 11px;
     }
     .table-modal tbody tr td:last-child {
         width: 30%;
@@ -4852,6 +4873,10 @@
     .table-modal thead th:last-child {
         width: 33%;
         white-space: nowrap;
+    }
+    .table-modal.table-super thead th:last-child,
+    .table-modal.table-super tbody tr td:last-child {
+        width: 27%;
     }
     .nuber-position:before {
         width: 20px;

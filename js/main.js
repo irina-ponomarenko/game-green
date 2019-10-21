@@ -109,6 +109,10 @@ $('.btn-drop-down').click(function () {
     $("#modal-text24").flythat({
         fadeIn: 'slow'
     });
+    
+    $("#modal-text25").flythat({
+        fadeIn: 'slow'
+    });
 
     $(".btn-menu").click(function() {
 
