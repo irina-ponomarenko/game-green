@@ -4516,6 +4516,10 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     max-width: 160px;
     width: 100%;
 }
+.container-img-bee lottie-player{
+    width: 170px !important;
+    height: 153px !important;
+}
 .item-contact span a{
     font-size: 16px;
     color: #4d4d4d;
